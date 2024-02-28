@@ -4,7 +4,7 @@ var animationInterval;
 // var sizeAdjustment = 4;
 // var previousSizeToWindow = Math.floor(Math.floor(window.innerWidth / sizeAdjustment) / 32);
 
-var sizeToWindow = Math.floor(window.innerWidth / 355);
+var sizeToWindow = Math.min(2, Math.floor(window.innerWidth / 355));
 
 var spriteHeight = 240 * sizeToWindow;
 var spriteWidth = 355 * sizeToWindow;
