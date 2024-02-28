@@ -11,7 +11,7 @@ body {
 
 #buttons {
   text-align: center;
-  display: block;
+  display: none;
 }
 
 #intro {
