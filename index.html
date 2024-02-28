@@ -3,38 +3,41 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0;">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-  <div class="container">
-    <div id="idle" style="display:none">
+  <div class="wrapper">
+    <div class="container">
+      <div id="idle" style="display:none">
+      </div>
+      <div id="intro">
+      </div>
+      <div id="secondchance" style="display:none">
+      </div>
+      <div id="murder" style="display:none">
+      </div>
+      <div id="running" style="display:none">
+      </div>
+      <div id="celebrate" style="display:none">
+      </div>
     </div>
-    <div id="intro">
-    </div>
-    <div id="secondchance" style="display:none">
-    </div>
-    <div id="murder" style="display:none">
-    </div>
-    <div id="running" style="display:none">
-    </div>
-    <div id="celebrate" style="display:none">
+    <div id="buttons" class="container">
+      <div id="question">
+      </div>
+      <div id="yesno">
+        <button id="yes-button" class="yes" onclick="yesClicked()">
+          <div id="yes-answer">
+          </div>
+        </button>
+        <button class="no" onclick="noClicked()">
+          <div id="no-answer">
+          </div>
+        </button>
+      </div>
     </div>
   </div>
-  <div id="buttons" class="container">
-    <div id="question">
-    </div>
-    <button class="yes" onclick="yesClicked()">
-      <div id="yes-answer">
-      </div>
-    </button>
-    <button class="no" onclick="noClicked()">
-      <div id="no-answer">
-      </div>
-    </button>
-  </div>
-  <script type="text/javascript" src="app.js"></script>
 </body>
 
 </html>
