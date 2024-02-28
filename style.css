@@ -84,7 +84,7 @@ html, body {
 }
 
 .yes {
-  margin: 20px 100px 20px 0px;
+  margin: 1% 1% 1% 4%;
   padding: 5px 15px;
   font-size: 48px;
   text-align: center;
@@ -109,7 +109,7 @@ html, body {
 }
 
 .no {
-  margin: 20px 0px 20px 100px;
+  margin: 1% 1% 1% 4%;
   padding: 5px 15px;
   font-size: 48px;
   text-align: center;
