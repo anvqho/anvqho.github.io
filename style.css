@@ -5,12 +5,6 @@ body {
   text-align: center;
 }
 
-.wrapper {
-  height: 90%;
-  vertical-align: middle;
-  text-align: center;
-}
-
 .container {
   text-align: center;
 }
@@ -18,7 +12,6 @@ body {
 #buttons {
   text-align: center;
   display: none;
-  width: 100%;
 }
 
 #intro {
@@ -143,9 +136,4 @@ body {
   background-color: firebrick;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-}
-
-#yesno {
-  width: 100%;
-  text-align: center;
 }
