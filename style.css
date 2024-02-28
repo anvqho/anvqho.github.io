@@ -1,15 +1,18 @@
-html, body {
+html,
+body {
   height: 90%;
   background: url("https://i.imgur.com/NAV4OmQ.jpeg");
+  text-align: center;
 }
 
 .container {
   text-align: center;
 }
 
-/* #buttons {
-  display: none;
-} */
+#buttons {
+  text-align: center;
+  display: block;
+}
 
 #intro {
   height: 240px;
@@ -65,6 +68,7 @@ html, body {
   background: url("https://i.imgur.com/wL0VuYs.png");
   image-rendering: pixelated;
   margin: auto;
+  clear: left;
 }
 
 #yes-answer {
@@ -84,7 +88,7 @@ html, body {
 }
 
 .yes {
-  margin: 1% 1% 1% 4%;
+  margin: 1% 4% 1% 0%;
   padding: 5px 15px;
   font-size: 48px;
   text-align: center;
@@ -95,7 +99,7 @@ html, body {
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
-  display: inline-block;
+  display: inline;
 }
 
 .yes:hover {
@@ -120,7 +124,7 @@ html, body {
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
-  display: inline-block;
+  display: inline;
 }
 
 .no:hover {
