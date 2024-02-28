@@ -1,4 +1,5 @@
-body {
+html, body {
+  height: 90%;
   background: url("https://i.imgur.com/NAV4OmQ.jpeg");
 }
 
