@@ -5,6 +5,12 @@ body {
   text-align: center;
 }
 
+.wrapper {
+  height: 90%;
+  vertical-align: middle;
+  text-align: center;
+}
+
 .container {
   text-align: center;
 }
@@ -12,6 +18,7 @@ body {
 #buttons {
   text-align: center;
   display: none;
+  width: 100%;
 }
 
 #intro {
@@ -63,6 +70,7 @@ body {
 }
 
 #question {
+  width: 100%;
   height: 32px;
   width: 128px;
   background: url("https://i.imgur.com/wL0VuYs.png");
@@ -135,4 +143,9 @@ body {
   background-color: firebrick;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+#yesno {
+  width: 100%;
+  text-align: center;
 }
