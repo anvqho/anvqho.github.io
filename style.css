@@ -1,0 +1,133 @@
+body {
+  background: url("https://i.imgur.com/NAV4OmQ.jpeg");
+}
+
+.container {
+  text-align: center;
+}
+
+#buttons {
+  display: none;
+}
+
+#intro {
+  height: 240px;
+  width: 355px;
+  background: url("https://i.imgur.com/rs6iOzl.png");
+  image-rendering: pixelated;
+  display: inline-block;
+}
+
+#secondchance {
+  height: 240px;
+  width: 355px;
+  background: url("https://i.imgur.com/vuldxxU.png");
+  image-rendering: pixelated;
+  display: inline-block;
+}
+
+#murder {
+  height: 240px;
+  width: 355px;
+  background: url("https://i.imgur.com/mRBUhZX.png");
+  image-rendering: pixelated;
+  display: inline-block;
+}
+
+#idle {
+  height: 240px;
+  width: 355px;
+  background: url("https://i.imgur.com/OgWHF3W.png");
+  image-rendering: pixelated;
+  display: inline-block;
+}
+
+#running {
+  height: 240px;
+  width: 355px;
+  background: url("https://i.imgur.com/JKHyiyV.png");
+  image-rendering: pixelated;
+  display: inline-block;
+}
+
+#celebrate {
+  height: 240px;
+  width: 355px;
+  background: url("https://i.imgur.com/1VVVM3R.png");
+  image-rendering: pixelated;
+  display: inline-block;
+}
+
+#question {
+  height: 32px;
+  width: 128px;
+  background: url("https://i.imgur.com/wL0VuYs.png");
+  image-rendering: pixelated;
+  margin: auto;
+}
+
+#yes-answer {
+  height: 14px;
+  width: 28px;
+  background: url("https://i.imgur.com/xUpMRSS.png");
+  image-rendering: pixelated;
+  text-align: center;
+}
+
+#no-answer {
+  height: 14px;
+  width: 28px;
+  background: url("https://i.imgur.com/ceXyfdw.png");
+  image-rendering: pixelated;
+  text-align: center;
+}
+
+.yes {
+  margin: 20px 100px 20px 0px;
+  padding: 5px 15px;
+  font-size: 48px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04aa6d;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  display: inline-block;
+}
+
+.yes:hover {
+  background-color: darkgreen;
+}
+
+.yes:active {
+  background-color: darkgreen;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.no {
+  margin: 20px 0px 20px 100px;
+  padding: 5px 15px;
+  font-size: 48px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: tomato;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  display: inline-block;
+}
+
+.no:hover {
+  background-color: firebrick;
+}
+
+.no:active {
+  background-color: firebrick;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
