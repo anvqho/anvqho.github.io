@@ -44,7 +44,7 @@ function getFrames(type) {
     case "murder":
       return 32 + 41 + 27;
     case "secondchance":
-      return 42;
+      return 44;
     case "running":
       return 10;
     case "celebrate":
